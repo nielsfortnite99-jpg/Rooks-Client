@@ -1,0 +1,60 @@
+{
+    "$schema":  "https://schema.tauri.app/config/2",
+    "productName":  "Rook\u0027s Client",
+    "mainBinaryName":  "Rook\u0027s Client",
+    "version":  "0.1.0",
+    "identifier":  "gg.rooksclient.launcher",
+    "build":  {
+                  "frontendDist":  "../ui"
+              },
+    "app":  {
+                "windows":  [
+                                {
+                                    "title":  "Rook\u0027s Client",
+                                    "width":  1220,
+                                    "height":  790,
+                                    "minWidth":  720,
+                                    "minHeight":  600,
+                                    "center":  true,
+                                    "resizable":  true,
+                                    "dragDropEnabled":  false
+                                }
+                            ],
+                "security":  {
+                                 "csp":  "default-src \u0027self\u0027; img-src \u0027self\u0027 data: https://*.modrinth.com; style-src \u0027self\u0027 \u0027unsafe-inline\u0027 https://fonts.googleapis.com; font-src \u0027self\u0027 data: https://fonts.gstatic.com; connect-src \u0027self\u0027 https://api.modrinth.com"
+                             },
+                "withGlobalTauri":  true
+            },
+    "bundle":  {
+                   "active":  true,
+                   "targets":  [
+                                   "nsis"
+                               ],
+                   "category":  "Game",
+                   "shortDescription":  "Minecraft Launcher",
+                   "longDescription":  "Rook\u0027s Client â€“ Profile und Mod-Launcher fÃ¼r Minecraft.",
+                   "publisher":  "Rook\u0027s Client",
+                   "copyright":  "Copyright Â© 2026 Rook\u0027s Client",
+                   "icon":  [
+                                "icons/32x32.png",
+                                "icons/128x128.png",
+                                "icons/128x128@2x.png",
+                                "icons/icon.ico"
+                            ],
+                   "windows":  {
+                                   "webviewInstallMode":  {
+                                                              "type":  "downloadBootstrapper",
+                                                              "silent":  true
+                                                          },
+                                   "nsis":  {
+                                                "installMode":  "currentUser",
+                                                "startMenuFolder":  "Rook\u0027s Client",
+                                                "displayLanguageSelector":  false,
+                                                "languages":  [
+                                                                  "German",
+                                                                  "English"
+                                                              ]
+                                            }
+                               }
+               }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="160" viewBox="0 0 520 160">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ad92ff"/><stop offset=".55" stop-color="#8066f5"/><stop offset="1" stop-color="#538dff"/></linearGradient></defs>
+ <rect x="4" y="4" width="152" height="152" rx="38" fill="#15141d" stroke="#49425e" stroke-width="3"/><path d="M42 31h19v17h19V31h19v17h19v19l-10 10v37H52V77L42 67z" fill="url(#g)"/><path d="M52 114h56v12H52zm-6 17h68v9H46z" fill="#d8ccff"/><path d="M63 77h34v30H63z" fill="#252234"/><path d="M72 87h16v20H72z" fill="#a991ff"/>
+ <text x="185" y="82" font-family="Arial,sans-serif" font-size="47" font-weight="700" letter-spacing="3" fill="#f5f3ff">ROOK'S</text><text x="189" y="122" font-family="Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="9" fill="#aaa3bd">CLIENT</text>
+</svg>

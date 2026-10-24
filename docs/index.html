@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rook's Client is an independent Windows launcher project for Minecraft Java Edition.">
+  <title>Rook's Client — Project</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0b10;--panel:#15151d;--line:#2a2934;--text:#f4f2fa;--muted:#aaa7b7;--violet:#a48aff;--blue:#7d9cff}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% 0,#24183d 0,transparent 40%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+    main{width:min(900px,calc(100% - 36px));margin:auto;padding:70px 0 50px}.brand{display:flex;align-items:center;gap:14px;margin-bottom:48px}.brand img{width:54px;height:54px}.brand strong{display:block;letter-spacing:.12em}.brand span{display:block;color:var(--muted);font-size:12px;letter-spacing:.2em}
+    .eyebrow{color:var(--violet);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}h1{font-size:clamp(38px,7vw,64px);line-height:1.05;letter-spacing:-.045em;margin:12px 0 18px}.lead{max-width:690px;color:var(--muted);font-size:18px}
+    .status{display:inline-flex;gap:9px;align-items:center;margin:24px 0 42px;padding:9px 13px;border:1px solid #59477e;border-radius:999px;background:#1b1726;color:#e0d6ff;font-size:13px}.dot{width:8px;height:8px;border-radius:50%;background:#f1c66f}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.card{padding:20px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(145deg,#191820,#121219)}h2{font-size:18px;margin:0 0 8px}.card p,.note{color:var(--muted);font-size:14px;margin:0}.note{margin-top:24px;padding:16px;border-left:3px solid var(--violet);background:#15131c}footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:#858292;font-size:12px}a{color:#c6b5ff}
+  </style>
+</head>
+<body><main>
+  <div class="brand"><img src="rook-mark.svg" alt="Rook tower mark"><div><strong>ROOK'S</strong><span>CLIENT</span></div></div>
+  <div class="eyebrow">Independent Windows launcher project</div>
+  <h1>Minecraft, set up your way.</h1>
+  <p class="lead">Rook's Client is an in-development desktop launcher project for Minecraft: Java Edition, with a custom interface, separate profiles and a Microsoft sign-in flow.</p>
+  <div class="status"><i class="dot"></i> In development — Minecraft Services app approval pending</div>
+  <section class="grid">
+    <article class="card"><h2>What works today</h2><p>The Windows launcher interface, local profile settings, live Modrinth project search, and Microsoft/Xbox sign-in up to the Minecraft Services app-registration check.</p></article>
+    <article class="card"><h2>What is not available yet</h2><p>Minecraft installation, game launch, actual mod installation, cosmetics and the in-game HUD are not implemented. Gameplay remains disabled.</p></article>
+    <article class="card"><h2>Account and privacy</h2><p>Sign-in happens through Microsoft's device-code page. Rook does not ask for your Microsoft password. Authentication tokens are not saved by the current build.</p></article>
+  </section>
+  <p class="note">Before gameplay is enabled, the launcher must authenticate the account and verify Minecraft ownership. Rook's Client is independent and is not affiliated with Mojang Studios or Microsoft.</p>
+  <footer>Project information for Minecraft Services AppID review. Product name: Rook's Client. Windows desktop application.</footer>
+</main></body></html>
